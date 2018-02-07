@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: affilinet Product Widgets\n"
+"POT-Creation-Date: 2018-02-07 20:57+0100\n"
+"PO-Revision-Date: 2018-02-07 20:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: affilinet-product-widgets.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/AffilinetWidgetsApi.php:44 classes/AffilinetWidgetsApi.php:56
+#, fuzzy
+msgid ""
+"Could not connect to affilinet API. Please recheck your Webservice Password "
+"and Publisher ID"
+msgstr ""
+"Nous n'avons pas pu nous connecter à l'API. Veuillez vérifier votre ID "
+"afflié et votre mot de passe Webservices."
+
+#: classes/AffilinetWidgetsPlugin.php:44
+msgid "Invalid Webservice Password or Publisher ID "
+msgstr ""
+
+#: classes/AffilinetWidgetsPlugin.php:57
+msgid ""
+"<strong>affilinet Widgets:</strong><br> Please make sure you have entered "
+"the correct Publisher ID and Publisher Webservice password."
+msgstr ""
+
+#: classes/AffilinetWidgetsPlugin.php:58
+#, fuzzy
+msgid "Check your settings."
+msgstr "Veuillez vérifier le paramétrage."
+
+#: classes/AffilinetWidgetsWidget.php:29
+msgid "Select affilinet widget"
+msgstr ""
+
+#: classes/AffilinetWidgetsWidget.php:37
+msgid "Products"
+msgstr ""
+
+#: classes/AffilinetWidgetsWidget.php:45
+msgid "Edit in Browser Extension"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: views/settings.php:2
+msgid "affilinet Product Widgets"
+msgstr ""
+
+#: views/settings.php:8
+#, fuzzy
+msgid "Settings"
+msgstr "Réglages"
+
+#: views/settings.php:19
+#, fuzzy
+msgid "Publisher ID"
+msgstr "ID affilié"
+
+#: views/settings.php:24
+msgid "Publisher Webservice Password"
+msgstr ""
+
+#: views/settings.php:30
+#, fuzzy
+msgid "Webservice Password"
+msgstr "Mot de passe Webservices"
+
+#: views/settings.php:39
+#, fuzzy
+msgid "Save"
+msgstr "Enregistrer"
+
+#: views/settings.php:49
+msgid "Install the affilinet Browser Extension"
+msgstr ""
+
+#: views/settings.php:51
+msgid ""
+"Create and manage your Product Widgets within the affilinet Browser Extension"
+msgstr ""
+
+#: views/settings.php:99
+msgid "Browser Extension detected"
+msgstr ""
+
+#: views/settings.php:103
+msgid "Open Browser Extension"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.affili.net/de/publisher/tools/influencer-web-extension"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A brief description of the Plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "affilinet"
+msgstr "Module Wordpress affilinet de monétisation de contenu"
+
+#. Author URI of the plugin/theme
+msgid "https://www.affili.net/"
+msgstr ""
