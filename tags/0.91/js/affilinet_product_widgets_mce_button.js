@@ -66,13 +66,15 @@ if (typeof(tinymce) != 'undefined') {
 
                             onsubmit: function (e) {
                                 // Insert content when the window form is submitted
-                                console.log('on submit', e);
-                                console.log('on ed.target', ed.target);
-                                console.log('on e.data.value', e.data.id);
-
                                 editor.selection.select(ed.target);
                                 editor.selection.setContent('[affilinet_widget id=' + e.data.id + ']');
                                 ed.stopImmediatePropagation();
+                                ed.stopPropagation();
+                                ed.preventDefault();
+                                console.log('stoped')
+                                this.hide()
+
+                                return false
                             }
 
                         });
@@ -106,10 +108,11 @@ if (typeof(tinymce) != 'undefined') {
                     elem.onclick =  function(){
                         editor.insertContent('[affilinet_widget id=' + elem.value.toString() + ']');
                     }
-
-
                 });
 
+
+
+                console.log(menu);
                 editor.addButton('affilinet_product_widgets_mce_button', {
                     icon: true,
                     image: affilinet_product_widgets_mce_variables.image_path  + 'affilinet_icon.png',
