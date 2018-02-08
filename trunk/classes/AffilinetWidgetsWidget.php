@@ -89,14 +89,13 @@ class AffilinetWidgetsWidget extends \WP_Widget
 
     public function getAdCode($widgetId)
     {
-        return '<div id="affilinet-product-widget-'
-               . $widgetId
-               . '" class="affilinet-product-widget" data-affilinet-product-widget-id="'
-               . $widgetId
-                .'">'
-               . '<link rel="stylesheet" type="text/css" href="https://productwidget.com/style-1.0.0.css">'
-               . '<script type="text/javascript">!function(d){var e,i = \'affilinet-product-widget-script\';'
-               . 'if(!d.getElementById(i)){e = d.createElement(\'script\');e.id = i;e.src = \'https://productwidget.com/affilinet-product-widget-1.0.0-min.js\''
-               .';d.body.appendChild(e);}if (typeof window.__affilinetWidget===\'object\')if (d.readyState===\'complete\'){window.__affilinetWidget.init();}}(document);</script></div>';
+	    return '<div id="affilinet-product-widget-'
+                . $widgetId
+                . '" class="affilinet-product-widget" data-affilinet-widget-id="'
+                . $widgetId
+                . '"><link rel="stylesheet" type="text/css" href="https://productwidget.com/style-1.0.0.css">'
+                . '<script type="text/javascript">!function(d){var e,i = \'affilinet-product-widget-script\';'
+                . 'if(!d.getElementById(i)){e = d.createElement(\'script\');e.id = i;e.src = \'https://productwidget.com/affilinet-product-widget-1.0.0-min.js\''
+                .';d.body.appendChild(e);}if (typeof window.__affilinetWidget===\'object\')if (d.readyState===\'complete\'){window.__affilinetWidget.init();}}(document);</script></div>';
     }
 }
