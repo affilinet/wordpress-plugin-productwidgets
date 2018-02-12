@@ -28,17 +28,17 @@ msgid ""
 "and Publisher ID"
 msgstr ""
 "Nous n'avons pas pu nous connecter à l'API. Veuillez vérifier votre ID "
-"afflié et votre mot de passe Webservices."
+"affilié et votre mot de passe Webservices."
 
 #: classes/AffilinetWidgetsPlugin.php:44
 msgid "Invalid Webservice Password or Publisher ID "
-msgstr ""
+msgstr "Votre mot de passe ou votre ID affilié est incorrect."
 
 #: classes/AffilinetWidgetsPlugin.php:57
 msgid ""
 "<strong>affilinet Widgets:</strong><br> Please make sure you have entered "
 "the correct Publisher ID and Publisher Webservice password."
-msgstr ""
+msgstr "Veuillez vérifier que l'ID affilié et le mot de passe du Webservice saisis sont corrects."
 
 #: classes/AffilinetWidgetsPlugin.php:58
 #, fuzzy
@@ -47,20 +47,20 @@ msgstr "Veuillez vérifier le paramétrage."
 
 #: classes/AffilinetWidgetsWidget.php:29
 msgid "Select affilinet widget"
-msgstr ""
+msgstr "Sélectionner le widget affilinet"
 
 #: classes/AffilinetWidgetsWidget.php:37
 msgid "Products"
-msgstr ""
+msgstr "Produits"
 
 #: classes/AffilinetWidgetsWidget.php:45
 msgid "Edit in Browser Extension"
-msgstr ""
+msgstr "Editer dans l'extension du navigateur"
 
 #. Plugin Name of the plugin/theme
 #: views/settings.php:2
 msgid "affilinet Product Widgets"
-msgstr ""
+msgstr "affilinet Product Widgets"
 
 #: views/settings.php:8
 #, fuzzy
@@ -74,7 +74,7 @@ msgstr "ID affilié"
 
 #: views/settings.php:24
 msgid "Publisher Webservice Password"
-msgstr ""
+msgstr "Mot de passe Publisher Webservice"
 
 #: views/settings.php:30
 #, fuzzy
@@ -88,28 +88,28 @@ msgstr "Enregistrer"
 
 #: views/settings.php:49
 msgid "Install the affilinet Browser Extension"
-msgstr ""
+msgstr "Installer"
 
 #: views/settings.php:51
 msgid ""
 "Create and manage your Product Widgets within the affilinet Browser Extension"
-msgstr ""
+msgstr "Créer et gérer vos Product Widgets dans l'affilinet Browser Extension"
 
 #: views/settings.php:99
 msgid "Browser Extension detected"
-msgstr ""
+msgstr "Extension de navigateur détectée"
 
 #: views/settings.php:103
 msgid "Open Browser Extension"
-msgstr ""
+msgstr "Ouvrir l'extension de navigateur"
 
 #. Plugin URI of the plugin/theme
 msgid "https://www.affili.net/de/publisher/tools/influencer-web-extension"
-msgstr ""
+msgstr "https://www.affili.net/de/publisher/tools/influencer-web-extension"
 
 #. Description of the plugin/theme
 msgid "A brief description of the Plugin."
-msgstr ""
+msgstr "Un bref descriptif du plugin"
 
 #. Author of the plugin/theme
 #, fuzzy
@@ -118,4 +118,4 @@ msgstr "Module Wordpress affilinet de monétisation de contenu"
 
 #. Author URI of the plugin/theme
 msgid "https://www.affili.net/"
-msgstr ""
+msgstr "https://www.affili.net/"
