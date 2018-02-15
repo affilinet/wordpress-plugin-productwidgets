@@ -3,7 +3,7 @@
 /*
 Plugin Name: affilinet Product Widgets
 Plugin URI: https://www.affili.net/de/publisher/tools/influencer-web-extension
-Description: A brief description of the Plugin.
+Description: The plugin allows you simple integration of affilinet Product Widgets into your WordPress posts and sidebar.
 Version: 0.92
 Author: affilinet
 Author URI: https://www.affili.net/
