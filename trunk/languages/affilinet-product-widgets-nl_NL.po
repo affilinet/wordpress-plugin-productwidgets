@@ -26,87 +26,91 @@ msgid ""
 "Could not connect to affilinet API. Please recheck your Webservice Password "
 "and Publisher ID"
 msgstr ""
+"Kon geen verbinding maken met affilinet API. Controleer nogmaals uw "
+"webservice wachtwoord en uw Publisher ID"
 
 #: classes/AffilinetWidgetsPlugin.php:44
 msgid "Invalid Webservice Password or Publisher ID "
-msgstr ""
+msgstr "Ongeldig webservice wachtwoord of Publisher ID"
 
 #: classes/AffilinetWidgetsPlugin.php:57
 msgid ""
 "<strong>affilinet Widgets:</strong><br> Please make sure you have entered "
 "the correct Publisher ID and Publisher Webservice password."
 msgstr ""
+"<strong>affilinet Widgets:</strong><br>Controleer a.u.b. of u het juiste "
+"Publisher ID en publisher webservice wachtwoord heeft ingevoerd."
 
 #: classes/AffilinetWidgetsPlugin.php:58
 msgid "Check your settings."
-msgstr ""
+msgstr "Controleer uw instellingen."
 
 #: classes/AffilinetWidgetsWidget.php:29
 msgid "Select affilinet widget"
-msgstr ""
+msgstr "Selecteer affilinet widget"
 
 #: classes/AffilinetWidgetsWidget.php:37
 msgid "Products"
-msgstr ""
+msgstr "Producten"
 
 #: classes/AffilinetWidgetsWidget.php:45
 msgid "Edit in Browser Extension"
-msgstr ""
+msgstr "Bewerken in browserextensie"
 
 #. Plugin Name of the plugin/theme
 #: views/settings.php:2
 msgid "affilinet Product Widgets"
-msgstr ""
+msgstr "affilinet product widgets"
 
 #: views/settings.php:8
 msgid "Settings"
-msgstr ""
+msgstr "Instellingen"
 
 #: views/settings.php:19
 msgid "Publisher ID"
-msgstr ""
+msgstr "Publisher ID"
 
 #: views/settings.php:24
 msgid "Publisher Webservice Password"
-msgstr ""
+msgstr "Publisher webservice wachtwoord"
 
 #: views/settings.php:30
 msgid "Webservice Password"
-msgstr ""
+msgstr "Webservice wachtwoord"
 
 #: views/settings.php:39
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: views/settings.php:49
 msgid "Install the affilinet Browser Extension"
-msgstr ""
+msgstr "Installeer de affilinet browserextensie"
 
 #: views/settings.php:51
 msgid ""
 "Create and manage your Product Widgets within the affilinet Browser Extension"
-msgstr ""
+msgstr "Creëer en beheer je product widgets in de affilinet browserextensie"
 
 #: views/settings.php:99
 msgid "Browser Extension detected"
-msgstr ""
+msgstr "Browserextensie gevonden"
 
 #: views/settings.php:103
 msgid "Open Browser Extension"
-msgstr ""
+msgstr "Browserextensie openen"
 
 #. Plugin URI of the plugin/theme
 msgid "https://www.affili.net/de/publisher/tools/influencer-web-extension"
-msgstr ""
+msgstr "https://www.affili.net/de/publisher/tools/influencer-web-extension"
 
 #. Description of the plugin/theme
 msgid "A brief description of the Plugin."
-msgstr ""
+msgstr "Een korte beschrijving van de plugin."
 
 #. Author of the plugin/theme
 msgid "affilinet"
-msgstr ""
+msgstr "affilinet"
 
 #. Author URI of the plugin/theme
 msgid "https://www.affili.net/"
-msgstr ""
+msgstr "https://www.affili.net/"
