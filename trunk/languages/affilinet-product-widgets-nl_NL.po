@@ -1,15 +1,13 @@
 msgid ""
 msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: affilinet Product Widgets\n"
 "POT-Creation-Date: 2018-02-07 20:42+0100\n"
-"PO-Revision-Date: 2018-02-19 13:22+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2018-02-19 14:14+0100\n"
 "Language-Team: \n"
-"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -17,53 +15,52 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
 "esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: nl\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-
 #: classes/AffilinetWidgetsApi.php:44 classes/AffilinetWidgetsApi.php:56
 msgid "errors.couldNotConnect"
-msgstr "Verbindungsfehler: Bitte überprüfen Sie Ihr Webservice Passwort und Ihre Publisher ID"
+msgstr "Kon geen verbinding maken met affilinet API. Controleer nogmaals uw webservice wachtwoord en uw Publisher ID"
 
 #: classes/AffilinetWidgetsPlugin.php:44
 msgid "errors.invalidCredentials"
-msgstr "Ungültiges Webservice Passwort oder Publisher ID "
+msgstr "Ongeldig webservice wachtwoord of Publisher ID"
 
 #: classes/AffilinetWidgetsPlugin.php:57
 msgid "errors.loginIncorrect"
 msgstr ""
-"<strong>affilinet Product Widgets:</strong><br> Bitte stellen Sie sicher, dass Sie die richtige Publisher ID und "
-"das korrekte Publisher Webservice Passwort eingeben haben."
+"<strong>affilinet Widgets:</strong><br>Controleer a.u.b. of u het juiste Publisher ID en publisher webservice "
+"wachtwoord heeft ingevoerd."
 
 #: classes/AffilinetWidgetsPlugin.php:58
 msgid "errors.btnCheckSettings"
-msgstr "Einstellungen prüfen."
-
+msgstr "Controleer uw instellingen."
 
 #: classes/AffilinetWidgetsplugin.php:115
 msgid "admin.linkSettings"
-msgstr "Einstellungen"
-
+msgstr "Instellingen"
 
 #: classes/AffilinetWidgetsWidget.php:29
 msgid "widgets.selectWidget"
-msgstr "Product Widget auswählen"
+msgstr "Selecteer affilinet widget"
 
 #: classes/AffilinetWidgetsWidget.php:37
 msgid "widgets.products"
-msgstr "Produkte"
+msgstr "Producten"
 
 #: classes/AffilinetWidgetsWidget.php:45
 msgid "admin.editInExtension"
-msgstr "In Browser Extension bearbeiten"
+msgstr "Bewerken in browserextensie"
 
 #: views/settings.php:2
 msgid "admin.settingsPageTitle"
-msgstr "affilinet Product Widgets"
+msgstr "affilinet product widgets"
 
 #: views/settings.php:8
 msgid "admin.headlineSettings"
-msgstr "Einstellungen"
+msgstr "Instellingen"
 
 #: views/settings.php:19
 msgid "admin.labelPublisherId"
@@ -71,31 +68,31 @@ msgstr "Publisher ID"
 
 #: views/settings.php:24
 msgid "admin.labelPassword"
-msgstr "Publisher Webservice Passwort"
+msgstr "Publisher webservice wachtwoord"
 
 #: views/settings.php:30
 msgid "admin.linkPassword"
-msgstr "Webservice Passwort"
+msgstr "Webservice wachtwoord"
 
 #: views/settings.php:39
 msgid "admin.btnSave"
-msgstr "Speichern"
+msgstr "Opslaan"
 
 #: views/settings.php:49
 msgid "admin.headlineInstallExtension"
-msgstr "Installieren Sie die affilinet Browser Extension"
+msgstr "Installeer de affilinet browserextensie"
 
 #: views/settings.php:51
 msgid "admin.extensionText"
-msgstr "Erstellen und bearbeiten Sie Ihre Product Widgets in der affilinet Browser Erweiterung"
+msgstr "Creëer en beheer je product widgets in de affilinet browserextensie"
 
 #: views/settings.php:99
 msgid "admin.extensionDetected"
-msgstr "Browser Extension erkannt"
+msgstr "Browserextensie gevonden"
 
 #: views/settings.php:103
 msgid "admin.openExtension"
-msgstr "Browser Extension öffnen"
+msgstr "Browserextensie openen"
 
 #. Plugin URI of the plugin/theme
 msgid "https://www.affili.net/de/publisher/tools/influencer-web-extension"
