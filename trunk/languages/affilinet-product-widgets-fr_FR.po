@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: affilinet Product Widgets\n"
 "POT-Creation-Date: 2018-02-07 20:57+0100\n"
-"PO-Revision-Date: 2018-02-07 20:57+0100\n"
+"PO-Revision-Date: 2018-02-19 14:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -15,92 +15,86 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: affilinet-product-widgets.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: classes/AffilinetWidgetsApi.php:44 classes/AffilinetWidgetsApi.php:56
 #, fuzzy
-msgid ""
-"Could not connect to affilinet API. Please recheck your Webservice Password "
-"and Publisher ID"
-msgstr ""
-"Nous n'avons pas pu nous connecter à l'API. Veuillez vérifier votre ID "
-"affilié et votre mot de passe Webservices."
+msgid "errors.couldNotConnect"
+msgstr "Nous n'avons pas pu nous connecter à l'API. Veuillez vérifier votre ID affilié et votre mot de passe Webservices."
 
 #: classes/AffilinetWidgetsPlugin.php:44
-msgid "Invalid Webservice Password or Publisher ID "
+msgid "errors.invalidCredentials"
 msgstr "Votre mot de passe ou votre ID affilié est incorrect."
 
 #: classes/AffilinetWidgetsPlugin.php:57
-msgid ""
-"<strong>affilinet Widgets:</strong><br> Please make sure you have entered "
-"the correct Publisher ID and Publisher Webservice password."
-msgstr "Veuillez vérifier que l'ID affilié et le mot de passe du Webservice saisis sont corrects."
+msgid "errors.loginIncorrect"
+msgstr "<strong>affilinet Widgets:</strong><br>Veuillez vérifier que l'ID affilié et le mot de passe du Webservice saisis sont corrects."
 
 #: classes/AffilinetWidgetsPlugin.php:58
-#, fuzzy
-msgid "Check your settings."
+msgid "errors.btnCheckSettings"
 msgstr "Veuillez vérifier le paramétrage."
 
 #: classes/AffilinetWidgetsWidget.php:29
-msgid "Select affilinet widget"
+msgid "widgets.selectWidget"
 msgstr "Sélectionner le widget affilinet"
 
+#: classes/AffilinetWidgetsplugin.php:115
+msgid "admin.linkSettings"
+msgstr "Réglages"
+
 #: classes/AffilinetWidgetsWidget.php:37
-msgid "Products"
+msgid "widgets.products"
 msgstr "Produits"
 
 #: classes/AffilinetWidgetsWidget.php:45
-msgid "Edit in Browser Extension"
+msgid "admin.editInExtension"
 msgstr "Editer dans l'extension du navigateur"
 
-#. Plugin Name of the plugin/theme
 #: views/settings.php:2
-msgid "affilinet Product Widgets"
+msgid "admin.settingsPageTitle"
 msgstr "affilinet Product Widgets"
 
 #: views/settings.php:8
 #, fuzzy
-msgid "Settings"
+msgid "admin.headlineSettings"
 msgstr "Réglages"
 
 #: views/settings.php:19
 #, fuzzy
-msgid "Publisher ID"
+msgid "admin.labelPublisherId"
 msgstr "ID affilié"
 
 #: views/settings.php:24
-msgid "Publisher Webservice Password"
+msgid "admin.labelPassword"
 msgstr "Mot de passe Publisher Webservice"
 
 #: views/settings.php:30
 #, fuzzy
-msgid "Webservice Password"
+msgid "admin.linkPassword"
 msgstr "Mot de passe Webservices"
 
 #: views/settings.php:39
 #, fuzzy
-msgid "Save"
+msgid "admin.btnSave"
 msgstr "Enregistrer"
 
 #: views/settings.php:49
-msgid "Install the affilinet Browser Extension"
+msgid "admin.headlineInstallExtension"
 msgstr "Installer"
 
 #: views/settings.php:51
-msgid ""
-"Create and manage your Product Widgets within the affilinet Browser Extension"
+msgid "admin.extensionText"
 msgstr "Créer et gérer vos Product Widgets dans l'affilinet Browser Extension"
 
 #: views/settings.php:99
-msgid "Browser Extension detected"
+msgid "admin.extensionDetected"
 msgstr "Extension de navigateur détectée"
 
 #: views/settings.php:103
-msgid "Open Browser Extension"
+msgid "admin.openExtension"
 msgstr "Ouvrir l'extension de navigateur"
 
 #. Plugin URI of the plugin/theme
@@ -108,14 +102,17 @@ msgid "https://www.affili.net/de/publisher/tools/influencer-web-extension"
 msgstr "https://www.affili.net/de/publisher/tools/influencer-web-extension"
 
 #. Description of the plugin/theme
-msgid "A brief description of the Plugin."
-msgstr "Un bref descriptif du plugin"
+msgid "The plugin allows you simple integration of affilinet Product Widgets into your WordPress posts and sidebar."
+msgstr "The plugin allows you simple integration of affilinet Product Widgets into your WordPress posts and sidebar."
 
 #. Author of the plugin/theme
-#, fuzzy
 msgid "affilinet"
-msgstr "Module Wordpress affilinet de monétisation de contenu"
+msgstr "affilinet"
 
 #. Author URI of the plugin/theme
 msgid "https://www.affili.net/"
 msgstr "https://www.affili.net/"
+
+#. Plugin Name of the plugin/theme
+msgid "affilinet Product Widgets"
+msgstr "affilinet Product Widgets"

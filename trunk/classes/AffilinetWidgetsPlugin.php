@@ -48,7 +48,7 @@ class AffilinetWidgetsPlugin {
 
 		// check credentials
 		if ( AffilinetWidgetsApi::logon() === false ) {
-			add_settings_error( 'affilinet_product_widgets_publisher_webservice_password', '1', __( 'Invalid Webservice Password or Publisher ID ', 'affilinet-product-widgets' ) );
+			add_settings_error( 'affilinet_product_widgets_publisher_webservice_password', '1', __( 'errors.invalidCredentials', 'affilinet-product-widgets' ) );
 			update_option( 'affilinet_product_widgets_webservice_login_is_correct', 'false', true );
 			wp_cache_delete( 'alloptions', 'options' );
 
@@ -63,9 +63,9 @@ class AffilinetWidgetsPlugin {
 		if ( get_option( 'affilinet_product_widgets_webservice_login_is_correct', 'false' ) === 'false' ) {
 			?>
             <div class="notice notice-warning is-dismissible">
-                <p><?php _e( '<strong>affilinet Widgets:</strong><br> Please make sure you have entered the correct Publisher ID and Publisher Webservice password.', 'affilinet-product-widgets' ); ?>
+                <p><?php _e( 'errors.loginIncorrect', 'affilinet-product-widgets' ); ?>
                     <a class="button"
-                       href="<?php echo admin_url( 'options-general.php?page=affilinet-product-widgets-settings' ); ?>"><?php _e( 'Check your settings.', 'affilinet-product-widgets' ); ?></a>
+                       href="<?php echo admin_url( 'options-general.php?page=affilinet-product-widgets-settings' ); ?>"><?php _e( 'errors.btnCheckSettings', 'affilinet-product-widgets' ); ?></a>
 
                 </p>
             </div>
@@ -112,7 +112,7 @@ class AffilinetWidgetsPlugin {
 
 	public function plugin_add_settings_link( $links ) {
 
-		$settings_link = '<a href="' . admin_url( 'options-general.php?page=affilinet-product-widgets-settings' ) . '">' . __( 'Settings' ) . '</a>';
+		$settings_link = '<a href="' . admin_url( 'options-general.php?page=affilinet-product-widgets-settings' ) . '">' . __( 'admin.linkSettings', 'affilinet-product-widgets' ) . '</a>';
 		array_push( $links, $settings_link );
 		return $links;
 	}

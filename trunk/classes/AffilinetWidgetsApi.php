@@ -41,7 +41,7 @@ class AffilinetWidgetsApi
             return $token;
         } catch (\SoapFault $e) {
             update_option('affilinet_product_widgets_webservice_login_is_correct', 'false', true);
-	        $errorMessage = __('Could not connect to affilinet API. Please recheck your Webservice Password and Publisher ID', 'affilinet-product-widgets');
+	        $errorMessage = __('errors.couldNotConnect', 'affilinet-product-widgets');
 	        AffilinetWidgetsHelper::displayHugeAdminMessage($errorMessage, 'error', 'fa-exclamation-triangle');
 
             return false;
@@ -53,7 +53,7 @@ class AffilinetWidgetsApi
 	 */
     public static function getMyWidgets()
     {
-	    $errorMessage = __('Could not connect to affilinet API. Please recheck your Webservice Password and Publisher ID', 'affilinet-product-widgets');
+	    $errorMessage = __('errors.couldNotConnect', 'affilinet-product-widgets');
 
 	    try {
 		    $token = self::logon();

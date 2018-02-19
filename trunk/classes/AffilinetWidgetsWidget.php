@@ -26,7 +26,7 @@ class AffilinetWidgetsWidget extends \WP_Widget
         $widget_id = $instance['widget_id'];
         ?>
         <p>
-            <label for="<?php echo $this->get_field_id('widget_id'); ?>"><?php _e('Select affilinet widget', 'affilinet-product-widgets'); ?></label>
+            <label for="<?php echo $this->get_field_id('widget_id'); ?>"><?php _e('widgets.selectWidget', 'affilinet-product-widgets'); ?></label>
             <select class="widefat" id="<?php echo $this->get_field_id('widget_id'); ?>"
                     name="<?php echo $this->get_field_name('widget_id'); ?>">
                 <?php
@@ -34,15 +34,14 @@ class AffilinetWidgetsWidget extends \WP_Widget
                         ?>
                         <option
                             value="<?php echo $widget['id']; ?>"
-                            <?php selected($widget_id, $widget['id']); ?>><?php echo $widget['widgetName']; ?> ( <?php echo count($widget['products']) . ' '. __('Products');?>) </option>
+                            <?php selected($widget_id, $widget['id']); ?>><?php echo $widget['widgetName']; ?> ( <?php echo count($widget['products']) . ' '. _e('widgets.products', 'affilinet-product-widgets');?>) </option>
                         <?php
                     }
 
 
                 ?>
             </select>
-
-            <button type="button" style="display: none;" class="button-primary affilinet-browser-extension-open-widgets-page-on-click affilinet-browser-extension-show"><?php _e('Edit in Browser Extension', 'affilinet-product-widgets');?></button>
+            <button type="button" style="display: none;" class="button-primary affilinet-browser-extension-open-widgets-page-on-click affilinet-browser-extension-show"><?php _e('admin.editInExtension', 'affilinet-product-widgets');?></button>
         </p>
         <?php
     }
