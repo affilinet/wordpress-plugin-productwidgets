@@ -1,4 +1,4 @@
-=== affilinet Performance Ads ===
+=== affilinet Product Widgets ===
 Contributors: affilinet, teraone
 Tags: Affiliate, affilinet, advertising, banner, widgets
 Requires at least: 3.0.1
