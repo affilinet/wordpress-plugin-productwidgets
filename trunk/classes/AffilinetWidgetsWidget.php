@@ -42,7 +42,7 @@ class AffilinetWidgetsWidget extends \WP_Widget
 
                 ?>
             </select>
-            <button type="button" onclick="openInWidgetsPageInBrowserExtension($('#<?php echo $this->get_field_id('widget_id'); ?>').val())" class="button-primary affilinet-browser-extension-show-v2"><?php _e('admin.editInExtension', 'affilinet-product-widgets');?></button>
+            <button type="button" onclick="openInWidgetsPageInBrowserExtension(jQuery('#<?php echo $this->get_field_id('widget_id'); ?>').val())" class="button-primary affilinet-browser-extension-show-v2"><?php _e('admin.editInExtension', 'affilinet-product-widgets');?></button>
         </p>
         <?php
     }
