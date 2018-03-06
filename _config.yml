@@ -22,6 +22,8 @@ mainmenu:
     slug: documentation
   - title: Support
     slug: https://github.com/affilinet/wordpress-plugin-productwidgets/issues
+  - title: Download
+    slug: download
 
 # Conversion
 markdown: kramdown
