@@ -11,7 +11,7 @@ The plugin allows you simple integration of affilinet Product Widgets into your 
 
 == Description ==
 
-With the affilinet WordPress Product Widget Plugin publishers can integrate Product Widgets, configured via the affilinet Influencer WebExtension, easily via drag and drop into posts or sidebar - all of this without touching any ad code snippet. 
+With the affilinet WordPress Product Widget Plugin publishers can integrate Product Widgets, configured via the affilinet Influencer WebExtension, easily via drag and drop into posts or sidebar - all of this without touching any ad code snippet.
 
 == Installation ==
 
@@ -22,11 +22,11 @@ If you want to integrate an affilinet Product Widget via WordPress Module, pleas
 3) Press "install now" and install the plugin. Afterwards you will find it in your installed plugins list
 4) In the next step you just have to activate the plugin under Installed Plugins
 5) Go to Settings -> affilinet Widgets in the side navigation, enter your publisher id and your webservice password to get all of your configured Product Widgets. Please note, that there will be a notification displayed, if connection to the publisher webservices cannot be established
-6) You can now integrate the Product Widgets on your WordPress Website using the dropdown in your post editor or the available design -> widget for the sitebar
+6) You can now integrate the Product Widgets on your WordPress Website using the dropdown in your post editor or the available design -> widget for the sidebar
 
 = Required settings =
 
-The Settings page allows you to enter your publisher id and webservice passwort in the plugin settings. Please don't use your publisher account password, but the webservice pasword. The data is used to authenticate you and provide your Product Widgets within WordPress.
+The Settings page allows you to enter your publisher id and webservice password in the plugin settings. Please don't use your publisher account password, but the webservice password. The data is used to authenticate you and provide your Product Widgets within WordPress.
 If you don't have a webservice password yet, please login to your publisher account in the affilinet publisher portal. You will find your password in "Solutions -> Web Services -> Access Data".
 
 == Usage ==
@@ -39,7 +39,7 @@ You have different options for Product Widget usage in your WordPress blog.
 For integration in the page panel select Appearance -> Widgets in the side navigation, select the affilinet widget and move it whether per drag and drop to the website areas (page footer/page panel) or select the area and click "Add Widget"!
 Open the affilinet Widgets, select one of the offered widgets - you previously configured in the affilinet Influencer WebExtension - in the dropdown and save your settings.
 
-= Intext placement = 
+= Intext placement =
 
 For intext-placements go to the article editor and open the article you want to integrate a Product Widget. Click on the area in the text and select the affilinet widget from menu bar dropdown. Save your settings!
 The Product Widget will appear in your text in the visual display.
@@ -58,7 +58,7 @@ Within the WordPress system, affilinet provides the placement of previously conf
 
 Affilinet Product Widgets
 
-The affilinet Browser WebExtension for Influencers allows publishers to easily search and discover products via an extensive product search engine and generate appealing product widgets out of it, which can be used to promote e.g. fashion or consumer eletronic products.
+The affilinet Browser WebExtension for Influencers allows publishers to easily search and discover products via an extensive product search engine and generate appealing product widgets out of it, which can be used to promote e.g. fashion or consumer electronic products.
 
 Beyond the Product Widget Wizard, the affilinet WebExtension offers even more functionality for Influencers such as Like Lists, Social Sharing, Deeplink Generator with link shortener.
 
